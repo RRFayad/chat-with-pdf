@@ -41,3 +41,12 @@
   - LangChain is a open-source library that gives us a lot of utility
   - we are going to setup langchain and pypdf:
     - `pip install -U langchain-community pypdf`
+
+- After loading the docs, we need to chunk using `CharacterTextSplitter`:
+  - `pip install -qU langchain-text-splitters`
+
+- Create vector embeddings
+  - `pip install -qU langchain-openai`
+
+- Create Qdrant vector store
+  - `pip install -qU langchain-qdrant`
